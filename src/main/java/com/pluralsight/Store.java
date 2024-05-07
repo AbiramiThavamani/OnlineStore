@@ -91,7 +91,7 @@ public class Store {
         // prompt the user to enter the ID of the product they want to add to
         // their cart. The method should
         // add the selected product to the cart ArrayList.
-       /* System.out.println("List of products: ");
+        System.out.println("List of products: ");
         for (Product product : inventory) {
             System.out.println(product.getId() + "|" + product.getName() + "|" + product.getPrice());
         }
