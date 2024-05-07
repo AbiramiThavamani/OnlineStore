@@ -14,6 +14,10 @@ public class Store {
         ArrayList<Product> inventory = new ArrayList<Product>();
         ArrayList<Product> cart = new ArrayList<Product>();
         double totalAmount = 0.0;
+        Store store = new Store();
+        store.inventory.add(new Product("1", "product1", 10.99));
+        store.inventory.add(new Product("2","product2",20.99));
+
 
 
 
@@ -167,7 +171,7 @@ public class Store {
         // and display a summary of the purchase to the user. The method should
         // prompt the user to confirm the purchase, and deduct the total cost
         // from their account if they confirm.
-       System.out.println("cart summary: ");
+     /*  System.out.println("cart summary: ");
         if (cart.isEmpty()) {
             System.out.println("your cart is empty. no purchase made. ");
             return;
@@ -183,7 +187,8 @@ public class Store {
             } else {
                 System.out.println("purchase canceled. no amount deducted from your account");
             }
-        }
+        }*/
+
 
     }
 
