@@ -167,7 +167,7 @@ public class Store {
         // and display a summary of the purchase to the user. The method should
         // prompt the user to confirm the purchase, and deduct the total cost
         // from their account if they confirm.
-      /*  System.out.println("cart summary: ");
+       System.out.println("cart summary: ");
         if (cart.isEmpty()) {
             System.out.println("your cart is empty. no purchase made. ");
             return;
