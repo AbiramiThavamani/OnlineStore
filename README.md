@@ -6,20 +6,21 @@ Online Store
 
 A project name is Online Store the application of project is It allows user to browse, search , and purchase
 product or services online. Customer can view product listings, categories, and detailed product information.
-It help user to find product easily. The application provides managing product inventory, including adding new product , and removing product that are out of stack or discontinues.
-product information such as name, price, and availability is stored.
+It help user to find product easily. The application provides managing product inventory, including adding new product and removing product
+that are out of stack or discontinues. Product information such as name, price, and id availability in stored. In this programming there is a salesReceipts
+display every think owed amount payment total amount which date transaction done . in checkout process involves collection payment information from the user
+to complete the purchase after a successful purchase, the application generate an order process payment and display the cash total change . over all online store application 
+provides efficient way of seeing the orders and convenient shopping experience for customers .
 
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
+- As a user, I want to download the products.csv file then only I can store product inventory into my application.
+- As a user, I created a Home screen to view the display options to choose list. display product, display cart, exit option in home screen
+- As a user, I created Load Inventory to view length , read the file and split line parts. 
+- AS a user, I want to create a Display product ,Display cart method to search a filter list of product add a product to their cart , check out , remove product from cart.
+- As a user, I created check Out method to print a sales receipt , total sales receipt, amount paid, change given to view information in file date time and txt.
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
-
-## Setup
-
-Instructions on how to set up and run the project using IntelliJ IDEA.
 
 ### Prerequisites
 
@@ -38,8 +39,8 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Intellij IDEA version 2022.3.2
+- JAVA 17
 
 ## Demo
 
@@ -49,26 +50,22 @@ Include screenshots or GIFs that show your application in action. Use tools like
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+Additional feature to be developed.
+- In feature to create the subscription service offer based on the purchase product.
+Improvement of current functionalities.
+- In current add Order Tracking user to track the status of their order in real time .
 
 ## Resources
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
+workbook2 String loops Array https://app.schoology.com/attachment/2926311503/source/ad7bfe6ddf41e4c168a52c81c3e733e9.pdf
 
 - [Java Programming Tutorial](https://www.example.com)
 - [Effective Java](https://www.example.com)
 
-## Team Members
-
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
 
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+
+- Thank you to Raymond Maroun for continuous support and guidance.
+
