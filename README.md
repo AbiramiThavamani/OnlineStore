@@ -1,10 +1,14 @@
 # Project Title
 
+Online Store
+
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+A project name is Online Store the application of project is It allows user to browse, search , and purchase
+product or services online. Customer can view product listings, categories, and detailed product information.
+It help user to find product easily. The application provides managing product inventory, including adding new product , and removing product that are out of stack or discontinues.
+product information such as name, price, and availability is stored.
 
-![Class Diagram](path/to/your/class_diagram.png)
 
 ## User Stories
 
