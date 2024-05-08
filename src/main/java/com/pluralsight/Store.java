@@ -245,14 +245,12 @@ public class Store {
         // the specified ID, and return the corresponding Product object. If
         // no product with the specified ID is found, the method should return
         // null.
-
         System.out.println("Searching for product with ID: " + id);
         for (Product product : inventory) {
             if (product.getId().equalsIgnoreCase(id)) {
                 System.out.println("Product found: " + product);
                 return product;
             }
-            System.out.println("Product not found! ");
         }
         System.out.println("Inventory is empty. ");
         return null; //product not found
