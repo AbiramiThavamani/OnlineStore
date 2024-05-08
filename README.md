@@ -58,9 +58,6 @@ Improvement of current functionalities.
 
 workbook2 String loops Array https://app.schoology.com/attachment/2926311503/source/ad7bfe6ddf41e4c168a52c81c3e733e9.pdf
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
-
 
 ## Thanks
 

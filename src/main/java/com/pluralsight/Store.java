@@ -20,7 +20,7 @@ public class Store {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
-        // Display menu and get user choice until they choose to exit
+
 
         while (running) {
             System.out.println("Welcome to the Online Store!");
@@ -54,14 +54,6 @@ public class Store {
 
     public static void loadInventory(String fileName) {
 
-        // This method should read a CSV file with product information and
-        // populate the inventory ArrayList with Product objects. Each line
-        // of the CSV file contains product information in the following format:
-        //
-        // id,name,price
-        //
-        // where id is a unique string identifier, name is the product name,
-        // price is a double value representing the price of the product
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
             String line;
@@ -85,11 +77,6 @@ public class Store {
     }
 
     public static void displayProducts(Scanner scanner) {
-        // This method should display a list of products from the inventory,
-        // and prompt the user to add items to their cart. The method should
-        // prompt the user to enter the ID of the product they want to add to
-        // their cart. The method should
-        // add the selected product to the cart ArrayList.
         System.out.println("Available Products: ");
         for (Product product : inventory) {
             System.out.println(product.getId() + ":" + product.getName() + "-$" + product.getPrice());
@@ -136,11 +123,6 @@ public class Store {
 
 
     public static void displayCart(Scanner scanner) {
-        // This method should display the items in the cart ArrayList, along
-        // with the total cost of all items in the cart. The method should
-        // prompt the user to remove items from their cart by entering the ID
-        // of the product they want to remove. The method should update the cart ArrayList and totalAmount
-        // variable accordingly.
 
         System.out.println("Cart: ");
         for (CartItem individualCartItem : cart) {
@@ -171,10 +153,7 @@ public class Store {
     }
 
     public static void checkOut(Scanner scanner) {
-        // This method should calculate the total cost of all items in the cart,
-        // and display a summary of the purchase to the user. The method should
-        // prompt the user to confirm the purchase, and deduct the total cost
-        // from their account if they confirm.
+
         System.out.println("Total amount owned: $" + totalAmount);
         System.out.println("please enter the Payment amount in cash: ");
         double payment = scanner.nextDouble();
@@ -241,10 +220,7 @@ public class Store {
 
 
     private static Product findProductById(String id) {
-        // This method should search the inventory ArrayList for a product with
-        // the specified ID, and return the corresponding Product object. If
-        // no product with the specified ID is found, the method should return
-        // null.
+
         System.out.println("Searching for product with ID: " + id);
         for (Product product : inventory) {
             if (product.getId().equalsIgnoreCase(id)) {
